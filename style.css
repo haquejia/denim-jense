@@ -1,0 +1,25 @@
+.background-image {}
+
+.header-section {
+    background-image: url(images/backgroundimage.jpg);
+
+    height: 540px;
+}
+
+.image-height {
+    height: 340px;
+    width: 240px;
+}
+
+.bg-img {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    width: full;
+    height: 600px;
+
+}
+
+.feature {
+    background-color: rgba(240, 249, 255, 1);
+    height: 700px;
+}
