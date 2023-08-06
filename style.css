@@ -1,5 +1,3 @@
-.background-image {}
-
 .header-section {
     background-image: url(images/backgroundimage.jpg);
 
@@ -21,5 +19,59 @@
 
 .feature {
     background-color: rgba(240, 249, 255, 1);
+    height: 630px;
+}
+
+.background-img {
+    background-image: url(images/pocket1.jpg);
+
+    background-position: center;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 20px 5px;
+    border: none;
+    width: 500px;
+    height: 335px;
+
+
+
+}
+
+.review {
+    background-color: rgba(240, 249, 255, 1);
+    height: 400px;
+}
+
+.form-container {
     height: 700px;
+    background-color: blue;
+
+}
+
+.form {
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: white;
+    cursor: default;
+}
+
+
+
+.input-field {
+
+    max-height: 65;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.button-inup {
+    color: rgb(25, 93, 120);
+}
+
+.disable {
+    color: skyblue;
 }
