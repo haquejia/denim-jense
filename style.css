@@ -19,7 +19,7 @@
 
 .feature {
     background-color: rgba(240, 249, 255, 1);
-    height: 630px;
+    height: 400px;
 }
 
 .color-back {
@@ -116,6 +116,10 @@
 
     .product {
         height: 1200px;
+    }
+
+    .feature {
+        height: 600px;
     }
 
     .review {
