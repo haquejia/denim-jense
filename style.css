@@ -22,6 +22,11 @@
     height: 630px;
 }
 
+.color-back {
+    background-color: rgba(240, 249, 255, 1);
+
+}
+
 .background-img {
     background-image: url(images/pocket1.jpg);
 
@@ -40,12 +45,12 @@
 .review {
     background-color: rgba(240, 249, 255, 1);
     height: 400px;
+
 }
 
 .form-container {
     height: 700px;
-    background-color: blue;
-
+    background-image: url(images/new.jpg);
 }
 
 .form {
@@ -57,6 +62,10 @@
     box-shadow: none;
     color: white;
     cursor: default;
+}
+
+.product {
+    height: 300px;
 }
 
 
@@ -74,4 +83,50 @@
 
 .disable {
     color: skyblue;
+}
+
+.border-td {
+    border: 1px solid white;
+}
+
+.footer {
+    background-image: url(images/foldpant.jpg);
+    height: 250px;
+}
+
+
+@media(max-width:954px) {
+    .header-section {
+        background-image: url(images/backgroundimage.jpg);
+
+        height: 900px;
+    }
+
+    .font-image {
+        height: 250px;
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+
+    .product-info {
+        height: 300px;
+    }
+
+    .product {
+        height: 1200px;
+    }
+
+    .review {
+        height: 900px;
+    }
+
+    .form-container {
+        height: 1000px;
+    }
+
+    .footer {
+        height: 400px;
+    }
 }
